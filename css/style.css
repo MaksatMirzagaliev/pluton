@@ -72,7 +72,7 @@ p {
     box-shadow: none;
 }
 .navbar .brand img {
-    width:120px;
+    width:60px;
     height:40px;
 }
 .navbar .nav > li > a {
@@ -820,7 +820,7 @@ p {
     font-size:20px;
     position:fixed;
     bottom:30px;
-    right:20px;
+    left:20px;
 	border:1px solid #fff;
     display:none;
     background: #FECE1A;
@@ -901,4 +901,100 @@ p {
     .price-column, .testimonial {
         margin-top:30px;
     }
+}
+
+
+/* Стили для сообщения об отправке */
+.alert {
+    background-color: #FFD700;
+    color: #000;
+    padding: 10px;
+    display: none;
+}
+
+/* Стили для текстовых полей и кнопки */
+.inputBox input,
+.inputBox textarea,
+.inputBox button {
+    background-color: #000;
+    color: #FFD700;
+    border: 2px solid #FFD700;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Стили для кнопки при наведении */
+.inputBox button:hover {
+    background-color: #FFD700;
+    color: #000;
+}
+
+/* Стили для иконки чат-бота */
+.chat-icon {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* Стили для свернутой формы */
+.chat-form {
+    display: none;
+    /* Другие стили для формы */
+}
+/* Стили для иконки чат-бота */
+.chat-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: none;
+    /* Другие стили для контейнера */
+}
+
+.chat-icon {
+    width: 60px;
+    height: 60px;
+}
+.chat-icon:hover {
+    transform: scale(1.1);
+    /* Увеличиваем размер иконки при наведении */
+}
+
+.custom-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.left-form,
+.right-form {
+    background-color: #F6BC0B;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40%;
+}
+
+.center-image {
+    width: 20%;
+    margin: 0%;
+}
+
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000;
+    color: #F6BC0B;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }

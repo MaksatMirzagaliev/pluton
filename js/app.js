@@ -6,7 +6,7 @@
  * Author URL: http://graphberry.com
  * License: http://graphberry.com/pages/license
  */
- jQuery(document).ready(function ($) {
+jQuery(document).ready(function ($) {
 
     var lastId,
     topMenu = $("#top-navigation"),
@@ -409,3 +409,4 @@ function initializeMap() {
 
     infowindow.open(map, marker);
 }
+
